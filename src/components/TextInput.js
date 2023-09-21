@@ -1,9 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const TextInput = () => {
-  return (
-    <input type='text'/>
-  )
-}
+const TextInput = ({ value, onChange }) => {
+  return <input type="text" value={value} onChange={onChange} />;
+};
 
-export default TextInput
+export default TextInput;
