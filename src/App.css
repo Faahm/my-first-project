@@ -1,5 +1,22 @@
+body {
+  background-color: lavender;
+}
+
+tbody {
+  text-align: start;
+}
+
+th {
+  text-align: start;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 .App-logo {
@@ -35,4 +52,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.category {
+  font-weight: bold;
+}
+
+.header {
+  font-weight: bold;
+  color: red;
 }
