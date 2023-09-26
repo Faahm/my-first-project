@@ -15,7 +15,7 @@ const Items = (props) => {
           >
             <td>{item.name}</td>
             <td>{props.includePrice && `$${item.price}`}</td>
-            <td>{item.stock}</td>
+            <td style={{ textAlign: "center" }}>{item.stock}</td>
           </tr>
         ))}
     </>
